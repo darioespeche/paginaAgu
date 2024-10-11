@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F9F9F9;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1,h2,h3{
+    font-family: "Noto Sans", sans-serif;
+    color: #354F52;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*header*/
+header{
+    padding: 20px;
+}
+/*Logo personal*/
+.logo{
+    text-align: center;
+    padding: 10px;
+}
+
+.img_logo {
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 30px;
+    width: 150px;
+}
+/*Formato para el menu*/
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+li{
+    margin: 10px;
+    display: inline-block;
+}
+a{
+    color: #2F3E46;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+    border: #354F52 1px solid;
+    padding: 10px;
+    background-color: #84a98cc4;
+    border-radius: 10px;
+}
+
+/*Main*/
+main{
+    padding: 20px;
+    text-align: center;
+}
+.imagenGeneral{
+    width: 400px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.seccion{
+    background-color: #F3F4ED ;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+.perfil-img {
+    border-radius: 50%;
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-proyec {
+    border-radius: 6%;
+    width: 450px;
+    height: 300px; 
+    object-fit: cover; 
+    margin: 20px auto;
+    display: inline-block;
+    padding: 10px;
+}
+/*Footer*/
+footer{
+    background-color: #84A98C;
+    padding: 20px;
+    text-align: center;
+}
+.contacto{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
